@@ -1,0 +1,41 @@
+
+.container {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    margin: 10px 30px 20px 10px;
+    padding: 30px;
+    /* border: 5px dashed gray; */
+
+}
+.inner-div {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50%;
+}
+.box-image {
+    width: 300px;
+    height: 500px;
+    border-radius: 13px;
+    background-color: black;
+    margin: 10px 5px;
+    background-size: contain;
+    /* background-blend-mode: color-dodge; */
+    /* background-blend-mode: luminosity; */
+    /* background-blend-mode: hue; */
+    /* background-blend-mode: exclusion; */
+    /* opacity: 0.5; */
+}
+.image1 {
+    background-image: url("https://i.pinimg.com/736x/3a/5f/49/3a5f4987132a9bf12bf66d171c4d834d.jpg");
+}
+.image2 {
+    background-image: url("https://i.pinimg.com/736x/8d/a3/97/8da3970338c195e5c4fdd04045e71926.jpg");
+}
+.image3 {
+    background-image: url("https://i.pinimg.com/736x/c4/07/d8/c407d8164fda0e1e43e925811c757308.jpg" );
+}
